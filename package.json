@@ -1,0 +1,25 @@
+{
+  "name": "tsexpresshouseapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangzeb/TSExpressHouseAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangzeb/TSExpressHouseAPI/issues"
+  },
+  "homepage": "https://github.com/wangzeb/TSExpressHouseAPI#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "typescript": "^5.8.3"
+  }
+}
