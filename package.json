@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js"
+    "compile": "tsc -p tsconfig.json",
+    "pack": "webpack --mode=production",
+    "start": "node dist/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,16 @@
   },
   "homepage": "https://github.com/wangzeb/TSExpressHouseAPI#readme",
   "description": "",
+  "dependencies": {
+    "websocket": "^1.0.34",
+    "ws": "^8.15.1"
+  },
   "devDependencies": {
     "@types/express": "^5.0.1",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "@types/ws": "^8.5.10",
+    "eslint": "^8.55.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
   }
 }
